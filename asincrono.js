@@ -17,4 +17,4 @@ function asynGetNames(){
 
 console.log('Inicia peticion');
 console.log(asynGetNames());
-}console.log('Termina peticion');
+console.log('Termina peticion');

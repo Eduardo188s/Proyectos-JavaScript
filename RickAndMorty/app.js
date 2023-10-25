@@ -102,6 +102,9 @@ function getCard(e){
         getCharacter(e.target.getAttribute('data-id'));
     }
 }
+
+getCharacters();
+
 document.querySelector('.pagination')
         .addEventListener('click', getButton);
 characters.addEventListener('click', getCard); 
